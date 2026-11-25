@@ -3,7 +3,7 @@
   "nodes": [
     {
       "parameters": {
-        "content": "## Terminumfrage über Organisationsgrenzen\n\nWenn Leute aus **verschiedenen Organisationen** einen Termin brauchen, kann niemand in alle Kalender schauen. Darum fragt dieser Workflow die Termine per **n8n-Formular** ab.\n\n**Bahn 1:** Tabelle anlegen und Einladungen vorbereiten (Versand erst, wenn du ihn einschaltest).\n**Bahn 2:** Das Formular sammelt die Antworten in einer **Data Table**.\n**Bahn 3:** Die Auswertung zählt die Zusagen je Termin. Gezählt wird in Knoten, nicht von einer KI.\n\n**Reihenfolge beim Testen:** zuerst Bahn 1 ausführen, dann das Formular (Bahn 2) zwei oder drei Mal ausfüllen, dann Bahn 3.\n\nAlle Namen und Adressen sind erfunden.\n\n**Eigenes Kürzel:** Ersetze **überall** `kuerzel` durch dein eigenes Kürzel. Formular-Pfade gelten für die ganze n8n in one.intelligence, ohne Kürzel kollidiert dein Formular mit dem einer anderen Person. Am einfachsten vor dem Import in der JSON-Datei (oder bitte Claude darum). Im Editor sind es diese Stellen:\n- Tabellenname `terminumfrage_kuerzel` in *Tabelle anlegen (einmalig)*, *Alte Antwort dieser Person löschen*, *Antwort speichern (Data Table)* und *Antworten laden*\n- Umfrage-ID `kuerzel-herbst-2026` in *Umfrage-Daten (Beispiel)*, *Alte Antwort dieser Person löschen*, *Antwort übernehmen*, *Antworten laden* und *Ergebnis*\n- Formular-Pfad `terminumfrage-kuerzel` in *Formular: Terminumfrage* (Option Path) und im Feld `formular_link` in *Umfrage-Daten (Beispiel)* (dort auch `EURE-N8N-ADRESSE` durch die Adresse eurer n8n ersetzen)",
+        "content": "## Terminumfrage über Organisationsgrenzen\n\nWenn Leute aus **verschiedenen Organisationen** einen Termin brauchen, kann niemand in alle Kalender schauen. Darum fragt dieser Workflow die Termine per **n8n-Formular** ab.\n\n**Bahn 1:** Tabelle anlegen und Einladungen vorbereiten (Versand erst, wenn du ihn einschaltest).\n**Bahn 2:** Das Formular sammelt die Antworten in einer **Data Table**.\n**Bahn 3:** Die Auswertung zählt die Zusagen je Termin. Gezählt wird in Knoten, nicht von einer KI.\n\n**Reihenfolge beim Testen:** zuerst Bahn 1 ausführen, dann das Formular (Bahn 2) zwei oder drei Mal ausfüllen, dann Bahn 3.\n\nAlle Namen und Adressen sind erfunden.\n\n**Eigenes Kürzel:** Ersetze **überall** `kuerzel` durch dein eigenes Kürzel. Formular-Pfade gelten für die ganze n8n in one.intelligence, ohne Kürzel kollidiert dein Formular mit dem einer anderen Person. Am einfachsten vor dem Import in der JSON-Datei (oder bitte Claude darum). Im Editor sind es diese Stellen:\n- Tabellenname `terminumfrage_kuerzel` in *Tabelle anlegen (einmalig)*, *Alte Antwort dieser Person löschen*, *Antwort speichern (Data Table)* und *Antworten laden*\n- Umfrage-ID `kuerzel-herbst-2026` in *Umfrage-Daten (Beispiel)*, *Alte Antwort dieser Person löschen*, *Antwort übernehmen*, *Antworten laden* und *Ergebnis*\n- Formular-Pfad `terminumfrage-kuerzel` in *Formular: Terminumfrage* (Option Path) und im Feld `formular_link` in *Umfrage-Daten (Beispiel)*",
         "height": 620,
         "width": 760,
         "color": 4
@@ -121,7 +121,7 @@
             {
               "id": "a5",
               "name": "formular_link",
-              "value": "https://EURE-N8N-ADRESSE/form/terminumfrage-kuerzel",
+              "value": "https://n8n.oi.destination.one/form/terminumfrage-kuerzel",
               "type": "string"
             },
             {

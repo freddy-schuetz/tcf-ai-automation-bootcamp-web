@@ -6,7 +6,7 @@
       "command": ["npx", "-y", "n8n-mcp"],
       "enabled": true,
       "environment": {
-        "N8N_API_URL": "https://DEINE-N8N-ADRESSE",
+        "N8N_API_URL": "https://n8n.oi.destination.one",
         "N8N_API_KEY": "DEIN_N8N_API_KEY",
         "N8N_MCP_ACCESS_TOKEN": "DEIN_MCP_ACCESS_TOKEN",
         "MCP_MODE": "stdio",

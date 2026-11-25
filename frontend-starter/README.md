@@ -16,7 +16,7 @@ In Claude Code Web gibt es **keine lokale Vorschau**: `localhost` ist nicht erre
 
 **Sag Claude *„Veröffentliche meine App"***. Claude prüft den Build (`npm run build`), committet und pusht auf den Arbeits-Branch der Sitzung und bittet dich, den **Pull Request nach `main` zu mergen**: Veröffentlicht wird aus `main`. Danach stößt Claude beim Hub die Veröffentlichung an (`POST https://hub.tcf.buildbar.de/deploy` mit `token`, `base_dir`, `env`). Du bekommst eine **öffentliche Adresse** wie `https://app-xxxx.tcf.buildbar.de`. Der **erste Build dauert einige Minuten**; eine Fehlermeldung wie „no available server" ist in dieser Zeit normal.
 
-> Env wird **beim Veröffentlichen mitgegeben** (nichts auf Vorrat, nichts im Repo): Braucht die App z. B. `NEXT_PUBLIC_N8N_BASE` (deine n8n-Adresse) oder Supabase-URL und anon-Key, übergibt Claude sie beim `/deploy`-Aufruf. Der Supabase-`service_role`-Key gehört nie in ein Frontend.
+> Env wird **beim Veröffentlichen mitgegeben** (nichts auf Vorrat, nichts im Repo): Braucht die App z. B. `NEXT_PUBLIC_N8N_BASE` (`https://n8n.oi.destination.one`) oder Supabase-URL und anon-Key, übergibt Claude sie beim `/deploy`-Aufruf. Der Supabase-`service_role`-Key gehört nie in ein Frontend.
 
 ## Was ist drin?
 - **`/` (Muster A: n8n-Webhook):** Formular → POST an `${NEXT_PUBLIC_N8N_BASE}/webhook/${NEXT_PUBLIC_HELLO_PATH}` (ohne Angabe: `hello`).

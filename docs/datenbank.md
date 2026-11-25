@@ -42,7 +42,7 @@ alles. Dafür brauchst du in n8n eine Credential vom Typ `httpHeaderAuth` mit de
 „n8n API“), am besten einen eigenen nur für diesen Zweck.
 
 ```
-URL    http://127.0.0.1:5678/api/v1/data-tables/<TABELLEN-ID>/rows
+URL    https://n8n.oi.destination.one/api/v1/data-tables/<TABELLEN-ID>/rows
 Query  limit = 200
 Options -> Pagination
   Pagination Mode        Update a Parameter in Each Request
@@ -52,9 +52,8 @@ Options -> Pagination
   Max Pages              30
 ```
 
-Die Adresse `http://127.0.0.1:5678` spricht n8n von innen an, der Knoten läuft ja in der n8n
-selbst. Meldet der Knoten in eurer n8n in one.intelligence einen Verbindungsfehler, stattdessen
-die Adresse eurer n8n eintragen (`https://…`).
+Die Adresse ist die eurer n8n in one.intelligence. Arbeitest du mit einer anderen n8n, steht dort
+deren Adresse.
 
 Danach im Code-Node alle Seiten zusammenführen und **prüfen, ob genug angekommen ist**:
 

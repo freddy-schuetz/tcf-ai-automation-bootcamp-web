@@ -48,7 +48,7 @@ Du wählst einen von zwei Wegen. Beide führen zum selben Ergebnis.
 
 ## 4. Deine n8n in one.intelligence
 
-- [ ] Du hast ein **Konto in eurer n8n in one.intelligence** und kannst dich anmelden.
+- [ ] Du hast ein **Konto in eurer n8n in one.intelligence** und kannst dich anmelden. Die Adresse eurer n8n (https://n8n.oi.destination.one) ist im Hub und in der Desktop-Einrichtung schon eingetragen.
 - [ ] Du kannst dort einen **API-Schlüssel** anlegen: Einstellungen, „n8n API“, „Create API Key“. Wähl eine **lange Laufzeit**, damit dein Projekt auch nach dem Bootcamp verbunden bleibt. Läuft er doch ab, hinterlegst du einen neuen unter https://hub.tcf.buildbar.de/erneuern.
 - [ ] Du weißt: Den Schlüssel trägst du nur beim Einrichten ein (Hub oder Desktop-Einrichtung), **nie in den Chat** und nie in eine Datei im Repository.
 - [ ] **KI in deinen Workflows** läuft über one.intelligence. Den Zugang vom Typ „one.intelligence“ legst du einmal selbst in deinem n8n-Konto an. Den API-Schlüssel dafür bekommst du in one.intelligence unter Einstellungen, Konto, API-Schlüssel.
@@ -77,7 +77,7 @@ Du wählst einen von zwei Wegen. Beide führen zum selben Ergebnis.
 
 ## 7. Rechner und Netz
 
-- [ ] **Dienstrechner:** Du hast getestet, ob https://claude.ai, https://github.com, https://tcf.buildbar.de und eure n8n in one.intelligence erreichbar sind. Web zusätzlich: https://hub.tcf.buildbar.de. Desktop zusätzlich: https://deploy.tcf.buildbar.de und https://registry.npmjs.org. Firmen-VPN, Proxy oder Firewall blockieren manchmal einzelne Seiten.
+- [ ] **Dienstrechner:** Du hast getestet, ob https://claude.ai, https://github.com, https://tcf.buildbar.de und https://n8n.oi.destination.one (eure n8n in one.intelligence) erreichbar sind. Web zusätzlich: https://hub.tcf.buildbar.de. Desktop zusätzlich: https://deploy.tcf.buildbar.de und https://registry.npmjs.org. Firmen-VPN, Proxy oder Firewall blockieren manchmal einzelne Seiten.
 
 ## 8. Dein Ziel für Tag 4
 

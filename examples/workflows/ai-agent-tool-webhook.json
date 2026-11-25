@@ -83,7 +83,7 @@
     },
     {
       "parameters": {
-        "content": "## HTTP-Request-Tool\nRuft den `hello-webhook` per HTTP auf. Den **Namen** füllt der Agent selbst aus (via `$fromAI`).\n⚠️ Trage hier die **Production-URL** deines hello-webhook ein, z.B. `https://DEINE-N8N-ADRESSE/webhook/DEIN-KUERZEL-hello` (der Pfad aus deinem hello-webhook).",
+        "content": "## HTTP-Request-Tool\nRuft den `hello-webhook` per HTTP auf. Den **Namen** füllt der Agent selbst aus (via `$fromAI`).\n⚠️ Trage hier die **Production-URL** deines hello-webhook ein, z.B. `https://n8n.oi.destination.one/webhook/DEIN-KUERZEL-hello` (der Pfad aus deinem hello-webhook).",
         "height": 170,
         "width": 280,
         "color": 2
@@ -154,7 +154,7 @@
       "parameters": {
         "toolDescription": "Ruft den hello-webhook auf und liefert eine freundliche Begrüßung für einen Namen zurück. Nutze dieses Tool, wenn der User möchte, dass jemand begrüßt wird.",
         "method": "POST",
-        "url": "https://DEINE-N8N-ADRESSE/webhook/DEIN-KUERZEL-hello",
+        "url": "https://n8n.oi.destination.one/webhook/DEIN-KUERZEL-hello",
         "sendBody": true,
         "contentType": "json",
         "specifyBody": "keypair",

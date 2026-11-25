@@ -30,7 +30,7 @@ Die **Web-Variante** ist für alle, die **nichts installieren können oder wolle
 
 ## ✨ So legst du los (keine Installation)
 
-1. **Repo über den Hub anlegen:** Öffne **[hub.tcf.buildbar.de](https://hub.tcf.buildbar.de)**, trag die Adresse deiner n8n und deinen API-Schlüssel ein und melde dich mit deinem GitHub-Account an. Der Hub legt in deinem Account ein **privates Repository `ai-automation-bootcamp`** an, erzeugt aus dieser Vorlage und mit fertiger n8n-Verbindung. Die ausführliche Anleitung steht unter [tcf.buildbar.de/starten/web](https://tcf.buildbar.de/starten/web).
+1. **Repo über den Hub anlegen:** Öffne **[hub.tcf.buildbar.de](https://hub.tcf.buildbar.de)**, trag deinen n8n-API-Schlüssel ein (die Adresse eurer n8n ist schon eingetragen) und melde dich mit deinem GitHub-Account an. Der Hub legt in deinem Account ein **privates Repository `ai-automation-bootcamp`** an, erzeugt aus dieser Vorlage und mit fertiger n8n-Verbindung. Die ausführliche Anleitung steht unter [tcf.buildbar.de/starten/web](https://tcf.buildbar.de/starten/web).
 2. **Netzwerkzugriff auf „Voll“ stellen:** In claude.ai/code unter dem Eingabefeld auf „Default“ mit dem Wolkensymbol, dann auf das Zahnrad, unter „Netzwerkzugriff“ die Stufe „Voll“ wählen und speichern. Sonst erreicht Claude deine n8n nicht.
 3. **Projekt öffnen:** Öffne **dein** Repository `ai-automation-bootcamp` in **[claude.ai/code](https://claude.ai/code)**. Nicht die öffentliche Vorlage: In die kannst du nicht speichern.
 4. **Loslegen:** Tippe einfach

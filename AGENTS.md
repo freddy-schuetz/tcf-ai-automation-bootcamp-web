@@ -15,7 +15,7 @@ Diese Datei richtet sich an Coding-Agents, die **AGENTS.md** lesen (OpenAI **Cod
    command = "npx"
    args = ["-y", "n8n-mcp"]
    [mcp_servers.n8n-mcp.env]
-   N8N_API_URL = "https://DEINE-N8N-ADRESSE"
+   N8N_API_URL = "https://n8n.oi.destination.one"
    N8N_API_KEY = "DEIN_N8N_API_KEY"
    MCP_MODE = "stdio"
    ```
@@ -24,7 +24,7 @@ Diese Datei richtet sich an Coding-Agents, die **AGENTS.md** lesen (OpenAI **Cod
    ```json
    { "mcp": { "n8n-mcp": { "type": "local",
      "command": ["npx", "-y", "n8n-mcp"],
-     "environment": { "N8N_API_URL": "https://DEINE-N8N-ADRESSE", "N8N_API_KEY": "DEIN_N8N_API_KEY", "MCP_MODE": "stdio" } } } }
+     "environment": { "N8N_API_URL": "https://n8n.oi.destination.one", "N8N_API_KEY": "DEIN_N8N_API_KEY", "MCP_MODE": "stdio" } } } }
    ```
 
 3. **Verbindung testen:** Agent bitten, `n8n_health_check` aufzurufen → muss OK liefern.
